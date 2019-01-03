@@ -1,0 +1,124 @@
+namespace OrganazierWizytDwa
+{
+    partial class OrganizerWizyt
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.Powitanie = new System.Windows.Forms.Label();
+            this.wybor_zwierze = new System.Windows.Forms.Button();
+            this.wybor_dziecko = new System.Windows.Forms.Button();
+            this.pictureBoxZwierze = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDziecko = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZwierze)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDziecko)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // Powitanie
+            // 
+            this.Powitanie.AutoSize = true;
+            this.Powitanie.Font = new System.Drawing.Font("Rockwell", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Powitanie.Location = new System.Drawing.Point(146, 5);
+            this.Powitanie.Name = "Powitanie";
+            this.Powitanie.Size = new System.Drawing.Size(557, 26);
+            this.Powitanie.TabIndex = 0;
+            this.Powitanie.Text = "WITAM W APLIKACJI I ZAPRASZAM DO KORZYTANIA";
+            this.Powitanie.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // wybor_zwierze
+            // 
+            this.wybor_zwierze.BackColor = System.Drawing.Color.Gold;
+            this.wybor_zwierze.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.wybor_zwierze.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.wybor_zwierze.Location = new System.Drawing.Point(186, 306);
+            this.wybor_zwierze.Margin = new System.Windows.Forms.Padding(0);
+            this.wybor_zwierze.Name = "wybor_zwierze";
+            this.wybor_zwierze.Size = new System.Drawing.Size(200, 50);
+            this.wybor_zwierze.TabIndex = 1;
+            this.wybor_zwierze.Text = "Zwierze";
+            this.wybor_zwierze.UseVisualStyleBackColor = false;
+            // 
+            // wybor_dziecko
+            // 
+            this.wybor_dziecko.BackColor = System.Drawing.Color.DarkOrange;
+            this.wybor_dziecko.Location = new System.Drawing.Point(466, 306);
+            this.wybor_dziecko.Margin = new System.Windows.Forms.Padding(0);
+            this.wybor_dziecko.Name = "wybor_dziecko";
+            this.wybor_dziecko.Size = new System.Drawing.Size(200, 50);
+            this.wybor_dziecko.TabIndex = 2;
+            this.wybor_dziecko.Text = "Dziecko";
+            this.wybor_dziecko.UseVisualStyleBackColor = false;
+            // 
+            // pictureBoxZwierze
+            // 
+            this.pictureBoxZwierze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBoxZwierze.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBoxZwierze.Location = new System.Drawing.Point(216, 104);
+            this.pictureBoxZwierze.Name = "pictureBoxZwierze";
+            this.pictureBoxZwierze.Size = new System.Drawing.Size(144, 137);
+            this.pictureBoxZwierze.TabIndex = 3;
+            this.pictureBoxZwierze.TabStop = false;
+            // 
+            // pictureBoxDziecko
+            // 
+            this.pictureBoxDziecko.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBoxDziecko.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBoxDziecko.Location = new System.Drawing.Point(498, 104);
+            this.pictureBoxDziecko.Name = "pictureBoxDziecko";
+            this.pictureBoxDziecko.Size = new System.Drawing.Size(144, 137);
+            this.pictureBoxDziecko.TabIndex = 4;
+            this.pictureBoxDziecko.TabStop = false;
+            // 
+            // OrganizerWizyt
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aqua;
+            this.ClientSize = new System.Drawing.Size(844, 461);
+            this.Controls.Add(this.pictureBoxDziecko);
+            this.Controls.Add(this.pictureBoxZwierze);
+            this.Controls.Add(this.wybor_dziecko);
+            this.Controls.Add(this.wybor_zwierze);
+            this.Controls.Add(this.Powitanie);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Name = "OrganizerWizyt";
+            this.Text = "Organazier Wizyt";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZwierze)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDziecko)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label Powitanie;
+        private System.Windows.Forms.Button wybor_zwierze;
+        private System.Windows.Forms.Button wybor_dziecko;
+        private System.Windows.Forms.PictureBox pictureBoxZwierze;
+        private System.Windows.Forms.PictureBox pictureBoxDziecko;
+    }
+}
