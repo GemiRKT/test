@@ -10,8 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Haslo wpisz = new Haslo();
-            wpisz.Zgaduj();
+            Console.WriteLine("Wpisz Haslo");
+            Haslo2 wpisz = new Haslo2();
+            wpisz.ZgadujHaslo();
+            Console.Clear();
+            Console.WriteLine("Super odgadles haslo");
+            Console.ReadKey();
         }
     }
 }
