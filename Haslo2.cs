@@ -16,7 +16,7 @@ namespace ConsoleApp1
                 string pytanie = Console.ReadLine();
                 if (pytanie.Contains("tajemnica"))
                     return;
-                else { Console.WriteLine("sprobuj jeszcze raz"); }
+                else { Console.WriteLine("nigdy nie zgadniesz hasla"); }
 
             }
         }
